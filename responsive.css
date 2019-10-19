@@ -1,0 +1,397 @@
+﻿* {box-sizing: border-box;}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+#wrapper{
+	    width: 80%;
+		margin: 0px auto;
+}
+header{
+	width: 100%;
+	background-color: #5F9EA0;
+	height: 150px;
+	text-align: center;
+	border-radius: 5px;
+height: 135px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: #002d62;
+}
+h1{
+	color: white;
+	line-height: 50px;
+}
+ul {
+	width: 100%;
+	background-color: #5F9EA0;
+    margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	
+}
+ul li {
+	float: left;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+ul li a {
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	font-size: 18px;
+}
+ul li a:hover{
+	border-bottom: 3px solid blue;
+	border-top: 3px solid blue;
+}
+.article {
+	background-color: white;
+	width: 60%;
+	height: auto;
+	margin-left: 2%;
+	margin-top: 3%;
+	
+}
+.main_article{
+	background-color: white;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	overflow: hidden;
+	clear: both;
+}
+.aside {
+	  height: 700px;
+	  width: 350px;
+	  float: right;
+	  background-color: #5F9EA0;
+      margin-left: 3%;
+      margin-top: 4%;
+      border-radius: 20px;	  
+}
+​.mySlides {display: none;}
+img {
+	vertical-align: middle;
+	height: 100%;
+	
+	}
+.slideshow-container {
+  max-width: 500px;
+  height: 270px;
+  position: relative;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.welcome{
+	    text-align: center;
+		color: #000080;
+		text-shadow: 5px 8px 8px;
+		border-bottom: 1px solid #000080;
+		margin-top: 7%;
+}
+ ol{
+	margin-top: 20px;
+	background-color: lightgray;
+}
+.care {
+	text-align: center;
+    color: #000080;
+	font-style: italic;
+}
+.left{
+	width: 300px;
+	float: left;
+	margin-top: 2%;
+	
+}
+.middle{
+    width: 300px;
+	float: left;
+	margin-left: 3%;
+	overflow: hidden;
+	margin-top: 2%;
+	
+	
+}	
+.right{
+	width: 300px;
+	float: left;
+	margin-left: 3%;
+	overflow: hidden;
+    margin-top: 2%;	
+	
+}
+.doc{
+	width: 70%;
+	height: 100%;
+	margin: 0 0 10px 0;
+}
+.head{
+	 width: 100%;
+	 margin: 50px auto 0px;
+	 color: white;
+	 background: #5F9EA0;
+	 text-align: center;
+	 border: 1px solid #B0C4DE;
+	 border-bottom: none;
+	 border-radius: 10px 10px 0px 0px;
+	 padding: 20px;
+}
+#demo{
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #202020;
+	color: #fff;
+    border-radius: 5px;	
+}
+.comments{
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B0C4DE;
+	color: #fff;
+    border-radius: 5px;	
+}
+form {
+	width: 70%;
+	margin-top: 5%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input {
+	margin: 10px 0px 10px 0px;
+}
+.input label{
+	    display: block;
+		text-align: left;
+		margin: 3px;
+}
+.input input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 90%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	border-radius: 5px;
+	text-align: left;
+	background: #f2dede;
+}
+table {
+	width: 75%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+th, td {
+	border: none;
+	height: 30px;
+	width: 275px;
+	padding: 2px
+}
+tr:hover {
+	      background: #F5F5F5;
+}
+.tlm {
+	
+	
+}
+.group {
+	margin: 10px 0px 10px 0px;
+}
+.group label{
+	    display: block;
+		text-align: left;
+		margin: 3px;
+}
+.group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.group textarea{
+	height: 150px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+.msg {
+	margin: 30px auto;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	width: 50%;
+	text-align: center;
+}
+.edit-btn {
+	      text-decoration: none;
+		  padding: 2px 5px;
+		  background: #2E8B57;
+		  color: white;
+		  border-radius: 3px;
+}
+.del-btn {
+	     text-decoration: none;
+		  padding: 2px 5px;
+		  background: #800000;
+		  color: white;
+		  border-radius: 3px;
+}
+.prefer {
+	height: 600px;
+	width: 50%;
+	background-color: #5F9EA0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50px;
+}
+#footer{
+	width: 100%;
+	background-color: #5F9EA0;
+	height: 100px;
+	text-align: left;
+	border-radius: 5px;
+	overflow: none;
+}
+.add{
+	color: white;
+	margin-left: 5%;
+	margin-top: none;
+	text-decoration: none;
+	border-right: 1px solid white;
+	padding: 5px;
+}
+.copyRight{
+	line-height: 50px;
+	color: white;
+	font-size: 12px;
+}
+.frstp{
+	margin-left: 9%;
+    margin-right: 9%;
+    font-size: 17px;	
+}
+
+@media screen and (max-width:959px){
+	#wrapper{
+		width: 100%;
+	}
+	ul{
+		width: 70%
+	}
+	div.left, div.right{
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+        ul li a {
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	font-size: 18px;
+}
+}
